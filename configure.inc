@@ -1385,7 +1385,7 @@ AC_PROG_INSTALL () {
 
     AC_SUB 'INSTALL' "$PROG_INSTALL"
     AC_SUB 'INSTALL_PROGRAM' "$PROG_INSTALL -s -m 755"
-    AC_SUB 'INSTALL_DATA' "$PROG_INSTALL -m 444"
+    AC_SUB 'INSTALL_DATA' "$PROG_INSTALL -m 644"
 
     # finally build a little directory installer
     # if mkdir -p works, use that, otherwise use install -d,
